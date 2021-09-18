@@ -1,0 +1,123 @@
+:root{
+    --var-white: white;
+    --var-gray: #666666;
+    --var-lightBlue:#0B65C2;
+    --var-blue:#094d91;
+    --new-backgroundPage: #F3F2EE;
+}
+
+
+
+#mainPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* BackgroundPersonal */
+#backgroundPersonal{
+background-image: url("../assets/backgroundMain.png");
+background-repeat: no-repeat;
+background-size: cover;
+height: 135px;
+width: 52.489019033674964vw;
+border-radius: 4px 4px 0px 0px;
+margin-top: 38px;
+}
+
+#backgroundPersonal img{
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    border: solid 3px var(--var-white);
+    margin-left: 31.38px;
+    /* transform: translateY(50%);    */
+    
+}
+#personalInformatio img{
+    border: 0;
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    border: solid 3px var(--var-white);
+    margin-left: 31.38px;
+    margin-top: -75px;
+    /* transform: translateY(50%);    */
+    
+}
+/* end BeackgroundPersonal */
+
+
+
+/* Personal Information */
+#personalInformatio{
+    
+    width: 52.489019033674964vw;
+    background-color: var(--var-white);
+    border-radius: 0 0 4px 4px;
+}
+
+#information{
+    margin-top: 11px;
+    margin-left: 22px;
+}
+
+#information h2{
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#information h3{
+    margin-left: 0;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight:inherit;
+}
+
+#information p{
+    margin-left: 0;
+    margin-bottom: 11px;
+    font-weight:normal;
+    font-size: 12px;
+    color: var(--var-gray);
+}
+
+#interaction .button{
+    margin-top: 11px;
+    margin-bottom: 28px;
+    padding: 4px 16px 4px 16px;
+    color:var(--var-gray);
+    margin-left: 14px;
+    border: solid 1px var(--var-gray);
+    border-radius: 15px;
+    background-color: var(--var-white);
+    cursor:pointer;    
+}
+
+#interaction .button:hover{
+    background-color: var(--new-backgroundPage);
+}
+
+#interaction .button.interesse{
+    margin-left: 22px;
+    background-color: var(--var-lightBlue);
+    border: solid 1px var(--var-lightBlue);
+    color: var(--var-white);
+    cursor: pointer;
+}
+
+#interaction .button.interesse:hover{
+    background-color: var(--var-blue);
+    border-color: var(--var-blue);
+}
+/* end Personal Information */
+
+
+
+
+
+

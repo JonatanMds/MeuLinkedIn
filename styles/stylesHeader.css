@@ -1,0 +1,124 @@
+:root{    
+    /* colors */
+    --new-white: white;
+    --new-backgroundPage: #F3F2EE;
+    --new-colorSearch: #EEF3F7;
+    --new-black: black;
+    /* end color */
+    
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--new-backgroundPage);
+}
+
+
+
+#headerPage{
+    position: sticky;
+    top: 0;
+    height: 59px;
+    width: 100%;
+    background: var(--new-white);
+    display: flex;
+    justify-content: center;
+}
+
+#header{
+    width: 52.489019033674964vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* Search/Logo */
+#researchLogo{
+    display: flex;
+    gap: 7px;
+}
+
+
+#searchBar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#searchBar input{
+    width: 100%;
+    width:  17.20351390922401vw;
+    height: 34px;
+    background-color:var(--new-colorSearch);
+    border-radius: 4px;
+    border:none;
+    text-indent: 34px;
+}
+
+
+#searchBar img{
+    position: absolute;
+    left: 12px;
+}
+
+/* end Search/Logo */
+
+
+
+/* NavBar */
+#navBar{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.elementNavBar{
+    text-align: center;
+}
+
+
+.elementNavBar a{
+    text-decoration: none;
+    color:var(--new-black);
+}
+
+.elementNavBar figcaption{
+    text-align: center;
+}
+
+figcaption{
+    font-size: 10px;
+}
+/* end NavBar */
+
+
+
+/* Personal Profile */
+#personalProfile button{
+   border: none;
+   background-color: transparent;
+   cursor: pointer;
+}
+
+#personalProfile img{
+    border-radius: 50%;
+}
+/* end Personal Profile */
+
+
+
+
+@media(max-width:768px){
+    figcaption, input{
+       display: none; 
+    }
+
+    form img{
+        height: 24px;
+        width: 24px;
+        cursor: pointer;
+
+    }
+}

@@ -1,0 +1,96 @@
+#academicExperience{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+#academicExperience h4{
+    margin-left: 21px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+#academicExperience p{
+    margin-left: 21px;
+    font-size: 11px;
+}
+
+/* Experience */
+#experiences{
+    width: 52.489019033674964vw;
+    background-color: white;
+    border-radius: 4px;
+}
+
+#experiences h3{
+    font-size: 14px;
+    margin-left: 21px;
+    margin-bottom: 30px;
+    margin-top: 16px;
+}
+
+.experienceAdded img{
+    margin-right: 21px;
+}
+
+.experienceAdded{
+    display: flex;
+    margin-left: 21px;
+    margin-bottom: 34px;
+}
+
+hr{
+    color: #EBEBEB;
+    margin-bottom: 24px;
+    margin-top: 14px;
+}
+/* end Experience */
+
+
+
+/* Academic */
+#academicEducation{
+    width: 52.489019033674964vw;
+    background-color: white;
+    border-radius: 4px;
+    margin-bottom: 33px;
+}
+
+#academicEducation h3{
+    font-size: 14px;
+    margin-left: 21px;
+    margin-bottom: 30px;
+}
+
+.academicEducationAdded img{
+    margin-right: 21px;
+}
+
+.academicEducationAdded{
+    display: flex;
+    margin-left: 21px;
+    margin-bottom: 34px;
+}
+
+.dataEstado{
+    color: #666666;
+    margin-left: 21px;
+    font-size: 11px;
+}
+/* Academic */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
